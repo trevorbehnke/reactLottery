@@ -1,5 +1,12 @@
 .Ball {
-  background-color: tomato;
+  /* background-color: tomato; */
+  background: radial-gradient(
+    circle at 65% 15%,
+    white 1px,
+    aqua 3%,
+    darkblue 60%,
+    aqua 100%
+  );
   border-radius: 50%;
   color: white;
   display: inline-block;
